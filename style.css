@@ -1,0 +1,381 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.b{
+    padding: 0.5%;
+    margin-left: 2%;
+    margin-bottom: 2.5%;
+
+}
+.bu{
+    background-color: green;
+    color:  #020912;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+.dtext{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 0.5%;
+}
+.dmode{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+
+}
+
+.pg1{
+    background-image: url("first.jpg");
+    background-repeat: no-repeat;
+    height: 65%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0%;
+    padding-bottom: 9%;
+    padding-right: 1%;
+
+}
+.msg{
+    font-size: 6rem;
+    color: rgba(31, 197, 189, 0.651);
+    font-weight: 900;
+    margin-left: 48%;
+}
+.hi{
+    font-size: 4rem;
+    color: rgb(31, 197, 190);
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 1%;
+}
+.name{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-right: 25%;
+    margin-top: 2%;
+    padding: 00.5%;
+    margin-bottom: 5%;
+    font-family: 'Merriweather', serif;
+    background-color: rgba(1, 22, 39, 0.781);
+    
+}
+.elsa{
+    margin-top: 0%;
+    width: 43%;
+    margin-left: 55%;
+    border: 1px white solid;
+    -webkit-filter: saturate(70%);
+    filter: saturate(70%);
+}
+.flexes1{
+    margin-top: 4%;
+    display: flex;
+}
+
+.ph, .mymap, .envp, .giticon, .telegram, .linkedin{
+    color: rgba(216, 219, 231, 0.589);   
+    font-size: 3rem;
+    font-weight: 900;
+}
+.icon{
+    padding-left: 7%;
+    cursor: pointer;
+}
+
+.flexesa,.soft, .contacts, .flexesc{
+    display: flex;
+}
+.contacts{
+    margin-top: 1%;
+    margin-left: 60%;
+}
+
+
+.pg3{
+    background-color: #020912;
+    padding-left: 8%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    
+}
+.abt{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color:rgb(239, 99, 81);
+    padding-top: 5%;
+    font-family: 'Merriweather', serif;
+    
+}
+.abtme{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color:rgb(0, 24, 69);
+    font-family: 'Arimo', sans-serif;
+    background-color: rgb(131, 197, 190);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1%;
+    padding-left: 3%;
+    padding-top: 3.5%;
+    padding-right: 2%;
+    padding-bottom: 4.5%;
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    
+}
+.softimg{
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.github{
+    color:rgb(69, 9, 32);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.dark{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color:rgb(104, 71, 86);
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.social, .guitar, .travel{
+    width: 50%;
+    border-radius: 45%;
+    border: 2px white solid;
+}
+.sym, .symh{
+    width: 45%;
+    border-radius: 50%;
+
+}
+.py{
+        width: 45%;
+        border-radius: 5%;
+}
+.symh{
+    padding-left: 15%;
+}
+.java{
+    width: 71%;
+    border-radius: 5%;
+    }
+.inter{
+    color:rgba(69, 9, 32);
+    font-weight: 900;
+    font-size: 1.75rem;
+    margin-left: 1%;
+    margin-top: 5%;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Fredoka One', cursive;
+}
+
+.ts{
+    color:rgba(69, 9, 32);
+    font-weight: 900;
+    font-size: 1.75rem;
+    margin-left: 1%;
+    margin-top: 3%;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.interest{
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-top: 3.2%;
+    padding-top: 0.5%;
+    padding-left: 4%;
+    padding-bottom: 0.3%;
+    padding-right: 3%;
+    background-color: rgb(131, 197, 190) ;
+    border-radius: 1%;
+}
+
+.techskill{
+
+    margin-bottom: 5%;
+    margin-right: 25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 5%;
+    margin-left:6%; 
+    margin-bottom: 4%;
+    background-color: rgb(131, 197, 190) ;
+    border-radius: 1%;
+    color:rgb(0, 24, 69);
+
+}
+.row{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 2%;
+    margin-left: 7%;
+}
+.row1{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 2%;
+
+}
+
+.techskill, .interest{
+    display: flex;
+    flex-direction: column;
+
+}
+.ans, .msghi, .dmode{
+    display: flex;
+    flex-direction: row;
+}
+.pg4{
+    background-color:rgb(184, 242, 230);
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.acad{
+    color: rgba(239, 99, 81);
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+.glap{
+    width: 75%;
+    height: 100%;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+
+.college{
+    padding: 3%;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-left: 8%;
+    padding-right: 10%;
+    
+
+}
+.nam{
+    font-size: 1rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgb(5, 4, 34);
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.yr{
+    font-size: 1.2rem;
+    font-weight: 650;
+    color: rgb(70, 65, 65);
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.flexesc{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.gra{
+    font-size: 1.7rem;
+    color: rgb(29, 53, 87);
+}
+
+.pg5{
+    background-image: url("mlback2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 10%;
+}
+.gl{
+    color:rgb(203, 243, 240);
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    padding-left: 7%;
+    padding-top: 7%;
+}
+.gol{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-align:left;
+    padding-right: 45%;
+    padding-top: 5%;
+    padding-left: 7%;
+    color: cornsilk;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.footer{
+    background-color: rgb(132, 165, 157);
+    padding-top: 7%;
+    padding-bottom: 14%;
+}
+.copy1, .copy2{
+    color: rgb(0, 24, 69);
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hrtic{
+    padding-left: 0.5%;
+    color: rgb(239, 35, 60);
+    font-size: 2rem;
+    font-weight: 900;
+}
+.copy1,.copy3{
+    padding-left: 29%;
+}
+.copy2{
+    padding-left: 0.5%;
+}
+.fi{
+    display: flex;
+    flex-direction: row;
+}
+.copy3{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.copy{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
