@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <div class="pg1" class="pg1">
+    <div class="pg1">
       <div class="dmode">
       <div class="dtext"><p>DARK MODE</p></div>
       <div class="b"><button class="bu" id="bu" onclick="fn()"> ON </button></div>
@@ -55,7 +55,7 @@
       
       <div class="flexes1">
       <div>
-        <img src="elsaphoto.jpg" alt="elsa" class="elsa" id="photo"/>
+        <img src="elsaphoto.jpg" alt="elsa" class="elsa" />
       </div>
       <div class="name">
         <p>ELSA MARIA JOSEPH</p>
@@ -237,8 +237,6 @@
 
   <script>
     function fn(){
-    var q=document.getElementById("pg1")
-    var ephoto=document.getElementById("photo")
     var x=document.getElementById("pg3")
     var y=document.getElementById("pg4")
     var z=document.getElementById("pg5")
@@ -255,7 +253,6 @@
         y.style.backgroundColor="white";
         w.style.backgroundColor="rgb(254, 200, 154)";
         z.style.filter="brightness(100%)invert(1)";
-        q.style.filter="brightness(100%)invert(1)";
 
     }
     else{
@@ -263,7 +260,6 @@
         y.style.backgroundColor="rgb(184, 242, 230)";
         w.style.backgroundColor="rgb(132, 165, 157)";
         z.style.filter="brightness(100%)invert(0)";
-        q.style.filter="brightness(100%)invert(1)";
 
         
     }}
