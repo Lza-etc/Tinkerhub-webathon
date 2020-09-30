@@ -23,7 +23,7 @@ a:active{
 
 }
 .dtext{
-    color: white;
+    color: rgb(105, 194, 197);
     font-size: 1.5rem;
     font-weight: 700;
     padding-top: 0.5%;
@@ -54,7 +54,7 @@ a:active{
 }
 .hi{
     font-size: 4rem;
-    color: rgb(31, 197, 190);
+    color: rgb(249, 65, 68);
     font-family: 'Arimo', sans-serif;
     font-family: 'Balsamiq Sans', cursive;
     font-family: 'Courgette', cursive;
@@ -90,7 +90,7 @@ a:active{
 }
 
 .ph, .mymap, .envp, .giticon, .telegram, .linkedin{
-    color: rgba(216, 219, 231, 0.589);   
+    color: rgb(105, 194, 197);   
     font-size: 3rem;
     font-weight: 900;
 }
