@@ -2,7 +2,12 @@
     margin: 0%;
     padding: 0%;
 }
-
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: burlywood;
+}
 .b{
     padding: 0.5%;
     margin-left: 2%;
