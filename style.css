@@ -23,7 +23,7 @@ a:active{
 
 }
 .dtext{
-    color: rgb(105, 194, 197);
+    color: rgb(239, 99, 81);
     font-size: 1.5rem;
     font-weight: 700;
     padding-top: 0.5%;
@@ -90,7 +90,7 @@ a:active{
 }
 
 .ph, .mymap, .envp, .giticon, .telegram, .linkedin{
-    color: rgb(105, 194, 197);   
+    color: rgb(239, 99, 81);   
     font-size: 3rem;
     font-weight: 900;
 }
